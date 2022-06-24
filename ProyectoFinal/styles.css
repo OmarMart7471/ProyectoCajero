@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+header{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: azure;
+    
+}
+
+.container{
+    height: 500px;
+}
+
+.menu{
+    padding: 30px;
+    background-color: rgb(194, 194, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+    border: 10px solid rgb(0, 0, 0);
+}
+
+.Resultado{
+    gap: 20px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+.Consultar{
+    display: flex;
+    justify-content: center;
+}
+
+.Ingresar{
+    display: flex;
+    justify-content: center;
+}
+
+.Retirar{
+    display: flex;
+    justify-content: center;
+}*/
